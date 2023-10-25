@@ -2,4 +2,7 @@ pandas
 flask
 numpy
 pymongo
+python-dotenv
+pyyaml
+scikit-learn
 -e .
