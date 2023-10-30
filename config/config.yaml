@@ -12,3 +12,18 @@ data_ingestion_config:
   ingested_dir: ingested_Data
   ingested_train_dir: Train
   ingested_test_dir: Test
+
+
+# ********************Data Ingestion completed************************
+
+# ********************Data Transformation started*********************
+
+# data_transformation / transformed_data / train & test
+data_transformation_config:
+  data_transformation_dir: data_transformation
+  transformed_dir: transformed_data
+  transformed_train_dir: train
+  transformed_test_dir: test
+  processing_dir: processed
+  preprocessed_object_file_name: processed.pkl
+  feature_eng_file: feature_eng.pkl

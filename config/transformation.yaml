@@ -1,0 +1,53 @@
+
+# ********************Data Transformation started*********************
+
+target_column:
+  - Cost
+
+numerical_columns:
+  - Artist_Reputation
+  - Height
+  - Weight
+  - Width
+  - Price_of_Sculpture
+  - Base_Shipping_Price
+
+categorical_columns:
+  - Customer_id
+  - Artist Name
+  - Customer_Information
+  - Customer_Location
+  - Delivery Date
+  - Express_Shipment
+  - Fragile
+  - Installation_Included
+  - International
+  - Material
+  - Remote Location
+  - Scheduled_Date
+  - Transport
+
+outliers_columns:
+  - Height 
+  - Weight
+  - Width
+  - Price_of_Sculpture
+  - cost
+
+
+drop_columns:
+  - Artist_Name
+  - Transport
+  - Customer_Location
+  - Delivery_Date
+  - Customer_Id
+  - Scheduled_Date
+
+scaling_columns:
+  - Artist_Reputation
+  - Height
+  - Weight
+  - Width
+  - Price_of_Sculpture
+  - Base_Shipping_Price
+  - Cost

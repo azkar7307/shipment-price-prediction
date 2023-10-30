@@ -18,3 +18,19 @@ e. helper function
 f. data_ingestion file
 g. training_pipeline
 h. testing
+
+# *****************Data Ingestion completed**********************
+
+# *****************Data Transformation started*******************
+
+2. Data Transformation pipeline
+
+1. config.yaml -> completed
+2. schema.yaml -> completed
+3. Define variables under constant file -> completed
+4. config_entity -> completed
+5. artifact_entity -> completed
+6. if required create helper function under utils file - later
+7. Data Transformation pipeline
+8. training pipeline
+9. testing
