@@ -26,7 +26,6 @@ categorical_column:
   - 'No'
   - 'Yes'
 numerical_columns:
-- Unnamed:_0
 - Artist_Reputation
 - Height
 - Width

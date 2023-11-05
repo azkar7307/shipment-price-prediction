@@ -5,4 +5,7 @@ pymongo
 python-dotenv
 pyyaml
 scikit-learn
+dill
+xgboost
+optuna
 -e .

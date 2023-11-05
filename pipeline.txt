@@ -34,3 +34,19 @@ h. testing
 7. Data Transformation pipeline
 8. training pipeline
 9. testing
+
+# ******************** Data Transformation completed *********************
+
+# ******************** Model Training started *********************
+
+3. Model Trainer
+
+1. config.yaml
+2. schema.yaml
+3. Define variables under constant file
+4. config_entity
+5. artifact_entity
+6. if required create helper function under utils file - later
+7. Model Trainer pipeline
+8. training pipeline
+9. testing

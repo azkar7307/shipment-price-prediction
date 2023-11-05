@@ -1,0 +1,8 @@
+R2_Score: '0.9307777486468692'
+model_name: Gradient_Boost_Regressor
+parameter:
+  learning_rate: 0.057727587906859223
+  max_depth: 5
+  min_sample_leaf: 4
+  min_sample_split: 5
+  n_estimators: 197

@@ -4,6 +4,7 @@ from src.logger import logging
 from datetime import datetime
 from src.constant import *
 import yaml
+import dill
 import pandas as pd
 import numpy as np
 from src.data_access.data_access import mongodb_client
@@ -109,3 +110,13 @@ def save_object(file_path:str, obj:object) -> None:
 
     except Exception as e:
         raise CustomException(e, sys) from e
+
+
+def load_numpy_array_data(file_path:str) -> np.array:
+    
+    try:
+        with open(file_path, 'rb') as file_obj:
+            return np.load(file_obj, allow_pickle=True)
+        
+    except Exception as e:
+        raise CustomException(e, sys)

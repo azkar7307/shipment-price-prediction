@@ -14,9 +14,9 @@ data_ingestion_config:
   ingested_test_dir: Test
 
 
-# ********************Data Ingestion completed************************
+# ******************** Data Ingestion completed ************************
 
-# ********************Data Transformation started*********************
+# ******************** Data Transformation started *********************
 
 # data_transformation / transformed_data / train & test
 data_transformation_config:
@@ -27,3 +27,19 @@ data_transformation_config:
   processing_dir: processed
   preprocessed_object_file_name: processed.pkl
   feature_eng_file: feature_eng.pkl
+
+# ******************** Data Transformation completed *********************
+
+# ******************** Model Training started *********************
+
+model_trainer_config:
+                    # model_registory
+  model_training_dir: model_training # 10 -> best model
+  model_object_file: model.pkl
+  model_report_file: report.yaml
+
+# for best model
+saved_model_config:
+  saved_model_dir: Saved_model
+  model_object_file: model.pkl
+  model_report_file: report.yaml

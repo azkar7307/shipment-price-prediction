@@ -9,21 +9,21 @@ numerical_columns:
   - Height
   - Weight
   - Width
-  - Price_of_Sculpture
+  - Price_Of_Sculpture
   - Base_Shipping_Price
 
 categorical_columns:
-  - Customer_id
-  - Artist Name
+  - Customer_Id
+  - Artist_Name
   - Customer_Information
   - Customer_Location
-  - Delivery Date
+  - Delivery_Date
   - Express_Shipment
   - Fragile
   - Installation_Included
   - International
   - Material
-  - Remote Location
+  - Remote_Location
   - Scheduled_Date
   - Transport
 
@@ -31,8 +31,8 @@ outliers_columns:
   - Height 
   - Weight
   - Width
-  - Price_of_Sculpture
-  - cost
+  - Price_Of_Sculpture
+  - Cost
 
 
 drop_columns:
@@ -48,6 +48,7 @@ scaling_columns:
   - Height
   - Weight
   - Width
-  - Price_of_Sculpture
+  - Price_Of_Sculpture
   - Base_Shipping_Price
   - Cost
+

@@ -17,3 +17,11 @@ class DataTransformationArtifact:
     test_target_file_path:str    
     feature_eng_obj_file_path:str
 
+# ******************** Data Transformation completed *********************
+
+# ******************** Model Training started *********************
+
+@dataclass
+class ModelTrainerArtifact:
+    trained_model_file_path:str
+    model_artifact_report:str
